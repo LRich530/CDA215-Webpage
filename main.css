@@ -1,0 +1,87 @@
+/* Use <nav> ... </nav> tags.
+Move your <ol> ... </ol> list to inside the <nav> ... </nav> tags.
+and CSS styles on the <nav>, <ol>, <li>, and <a> tags.
+create a user-friendly well designed web site navigation. */
+
+h1 {
+  margin-top: 0;
+  padding-top: 10px;
+    color: black;
+    font-size: 50px;
+    font-weight: 700px;
+
+}
+
+h2 {
+    color: black
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(162, 226, 223);
+    font-family: 'Spartan', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.picture-caption {
+    font-family: 'Give You Glory', cursive;
+    font-size: 24px;
+}
+.photos {
+margin: 0;
+width: 320px;
+text-align: center;
+}
+
+div {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+nav {
+    color: black;
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    font-weight: lighter;
+    border-style: solid;
+    border-color: black;
+    line-height: 1.5;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: lightseagreen;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+img {
+    border: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+a {
+    display: block;
+    color: #000;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: teal;
+    color: white;
+  }
